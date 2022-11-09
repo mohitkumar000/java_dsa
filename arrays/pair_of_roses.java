@@ -14,7 +14,7 @@ public class pair_of_roses {
 			arr[i]=arr[i]+arr[i+1];
 			if(total_money==arr[i])
 			{
-				System.out.println("should buy roses whose prices are"+arr[i]+"and"+);
+				System.out.println("should buy roses whose prices are"+arr[i]+"and");
 			}
 		}
 		
