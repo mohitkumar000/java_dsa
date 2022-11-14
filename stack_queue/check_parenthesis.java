@@ -10,7 +10,7 @@ public class check_parenthesis {
 		System.out.println(ans);
 
 	}
-		public static boolean ispar(String x)
+		public static void ispar(String x)
 
 	    {
 	        // add your code here
