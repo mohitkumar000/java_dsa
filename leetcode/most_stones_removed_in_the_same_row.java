@@ -6,5 +6,9 @@ public class most_stones_removed_in_the_same_row {
 		// TODO Auto-generated method stub
 
 	}
+	public static void stone_removed(int [] [] arr)
+	{
+		
+	}
 
 }

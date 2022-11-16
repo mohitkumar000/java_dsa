@@ -13,12 +13,6 @@ public class command {
 		
 		int input = scn.nextInt();
 		
-		
-		
-		
-		
-		
-		
 		if(input ==1 )
 		{
 			even_odd obj =new even_odd();
@@ -43,13 +37,7 @@ public class command {
 				System.out.println("finally merged array is "+merge[i]);
 			}
 			
-			
-			
-			
-			
-			
-			
-		}
+			}
 		//for the third input
 		if(input==3)
 		{
