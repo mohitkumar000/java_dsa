@@ -1,10 +1,14 @@
 package Oops_2;
 
-public class abstract_class {
+public abstract class abstract_class {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public abstract void fun();
+	
+	public void sayhi()
+	{
+		System.out.println("say hi");
 	}
-
+	
+		
+	
 }
