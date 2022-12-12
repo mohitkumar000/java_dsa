@@ -24,6 +24,8 @@ public class Hashmap_demo {
 		//o(1)
 		System.out.println(map.get("raj"));
 		
+		map.keySet();
+		
 		
 		
 		

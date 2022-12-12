@@ -17,6 +17,8 @@ LinkedHashMap<String,Integer>map = new LinkedHashMap<>();
 		map.put("sdvsd", 98);
 		map.put("sdj", 76);
 		System.out.println(map);
+		//inserion order is preserved
+		//implemented using doubly linked list
 
 	}
 
