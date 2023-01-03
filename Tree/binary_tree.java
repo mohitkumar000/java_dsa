@@ -37,6 +37,10 @@ public class binary_tree {
 		return n;
 		
 	}
+	public void display()
+	{
+		display(root);
+	}
 	public void display(Node nn)
 	{
 		if(nn==null)
@@ -69,6 +73,55 @@ public class binary_tree {
 		
 				
 	}
-	
+	public void Postorder(Node nn)
+	{
+		if(nn==null)
+		{
+			return;
+		}
+		Postorder(nn.left);
+		Postorder(nn.right);
+		System.out.println(nn.data+" ");
+		
+	}
+	public void inorder(Node nn)
+	{
+		if(nn==null)
+		{
+			return;
+		}
+		inorder(nn.left);
+		System.out.println(nn.data+" ");
+		inorder(nn.right);
+		
+		
+	}
+	public void preorder(Node nn)
+	{
+		if(nn==null)
+		{
+			return;
+		}
+		System.out.println(nn.data+" ");
+		preorder(nn.left);
+		
+		preorder(nn.right);
+		
+		
+	}
+	private boolean find(Node nn,int item)
+	{
+		if(nn==null)
+		{
+			return false;
+		}
+		if(nn.data==item)
+		{
+			return true;
+		}
+		boolean lf = find(nn.left,item);
+		boolean rf=find(nn.right,item);
+		return lf||rf;
+	}
 
 }
