@@ -20,7 +20,7 @@ public class four_digit_otp {
 			 int a = Integer.parseInt(String.valueOf(ch)); 
 			if(a%2==0)
 			{
-				//do nothoing
+				//do nothoing 
 			}
 			else
 			{
