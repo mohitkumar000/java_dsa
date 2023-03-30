@@ -21,7 +21,44 @@ public class graph {
 	}
 	public boolean ContainsEdge(int v1,int v2)
 	{
-		return map.get(v1).containsKey(v2);
+		return map.get(v1).containsKey(v2)&&map.get(v2).containsKey(v1);
+	}
+	public boolean ContainsVertex(int v1)
+	{
+		return map.containsKey(v1);
+	}
+	public int noofEdge() {
+		int ans =0 ;
+		for(int key:map.keySet())
+		{
+			ans+=map.get(key).size();
+			
+		}
+		return ans/2;
+	}
+	public void removeEdge(int v1,int v2)
+	{
+		if(ContainsEdge(v1,v2))
+		{
+			map.get(v1).remove(v2);
+			map.get(v2).remove(v1);
+		}
+	}
+	public void removeVertex(int v1)
+	{
+		for(int nbrs:map.get(v1).keySet())
+		{
+			map.get(nbrs).remove(v1);
+		}
+		map.remove(v1);
+		
+	}
+	public void display()
+	{
+		for(int key:map.keySet())
+		{
+			System.out.println(key + "-->"+map.get(key));
+		}
 	}
 	
 
