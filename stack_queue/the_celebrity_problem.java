@@ -37,13 +37,12 @@ System.out.println(Celebrity(arr));
 		
 		for(int i =0;i<arr.length;i++)
 		{
-			if(i!=candidate && (arr[i][candidate]==0
-					
-					\\))
+			if(i!=candidate && (arr[i][candidate]==0||arr[candidate][i]==1))
 			{
 				return -1;
 			}
 		}
+		return candidate;
 		
 		
 	}
