@@ -23,6 +23,7 @@ public class is_subsequence {
 		char ch = ques.charAt(0);
 		printanswer(ques.substring(1), ans);
 		printanswer(ques.substring(1), ans + ch);
+	
 
 	}
 
