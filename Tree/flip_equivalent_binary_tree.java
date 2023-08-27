@@ -11,6 +11,7 @@ public class flip_equivalent_binary_tree {
 	}
 	public static boolean has_path_sum(TreeNode root,int targetSum)
 	{
+		
 		if(root==null)
 		{
 			return false;

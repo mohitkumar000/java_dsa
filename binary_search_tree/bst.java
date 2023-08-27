@@ -3,9 +3,9 @@ package binary_search_tree;
 public class bst {
 	
 	public class Node{
-		int val;
-		Node left;
-		Node right;
+		 public int val;
+		public Node left;
+		public Node right;
 	}
 	private Node root;
 	
@@ -35,9 +35,6 @@ public class bst {
 	}
 
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	
 
 }
