@@ -11,13 +11,13 @@ public class generics {
 		
 
 	}
-//	public static <t>void display(t [] arr)
-//	{
-//		for(int i=0;i<arr.length;i++)
-//		{
-//			System.out.println(arr[i]+" ");
-//		}
-//		System.out.println();
-//	}
+	public static <t>void display(t [] arr)
+	{
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.println(arr[i]+" ");
+		}
+		System.out.println();
+	}
 
 }
