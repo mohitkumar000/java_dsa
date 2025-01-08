@@ -14,6 +14,13 @@ public class heap {
 		
 	}
 
+	public void add2(int item)
+	{
+		list.add(item);
+		upheapify(list.size()-1);
+
+	}
+
 	private void upheapify(int ci) {
 		// TODO Auto-generated method stub
 		int pi =(ci-1)/2;

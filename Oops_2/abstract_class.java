@@ -8,6 +8,9 @@ public abstract class abstract_class {
 	{
 		System.out.println("say hi");
 	}
+
+
+
 	
 		
 	
