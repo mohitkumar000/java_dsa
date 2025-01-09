@@ -27,7 +27,7 @@ public class veryEasyTask {
 			int mid=(left+right)/2;
 			
 			
-			//good function checks if the mid time range is enough or not
+
 			if(good(n,x,y,mid)) {
 				ans =mid;
 				right=mid-1;
