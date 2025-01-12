@@ -15,6 +15,7 @@ public class Main{
             arr[i][2] = scn.nextInt();
         }
         System.out.println(taroProfit(arr, n));
+        System.out.println(taroProfit(arr, n));
     }
 
     private static int frogJump(int[] h, int n1, int k) {
