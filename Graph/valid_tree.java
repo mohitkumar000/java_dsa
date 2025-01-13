@@ -23,6 +23,7 @@ public class valid_tree {
 			int b1=edges[i][1];
 			map.get(a1).put(b1,2);
 			map.get(b1).put(a1,2);
+			map.get(b1).put(a1,2);
 		}
 		
 	}
