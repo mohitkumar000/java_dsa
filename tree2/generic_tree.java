@@ -11,6 +11,7 @@ public class generic_tree {
 		Node(int data)
 		{
 			this.data=data;
+			this.data=data;
 
 
 		}
