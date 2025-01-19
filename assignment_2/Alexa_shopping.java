@@ -12,7 +12,12 @@ public class Alexa_shopping {
 		{
 			arr[i]=scn.nextInt();
 		}
+
+
+
+
 		int q=scn.nextInt();
+
 		while(q>0)
 		{
 			int a =scn.nextInt();
