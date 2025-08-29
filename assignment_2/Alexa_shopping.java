@@ -24,7 +24,7 @@ public class Alexa_shopping {
 			int k = scn.nextInt();
 			if(isPossible(arr,a,k)==true)
 			{
-				System.out.println("yes");
+				//System.out.println("yes");
 			}
 			else
 			{
